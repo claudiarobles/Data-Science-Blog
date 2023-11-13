@@ -31,7 +31,11 @@ skim(gpa)
 
 I loaded in the data set and see some information that I find interesting. The first two things I noticed are Subject and the number of students that got each letter grade.
 
+Top 10 Classes with Highest "A" Grades
+
 ```{r}
 top_10 <- head(gpa[order(gpa$A, decreasing = TRUE), ], 10)
 print(top_10)
 ```
+
+I decided to analyze the top 10 classes first, choosing to look at specifically the A column. It looks like a lot of CS (Computer Science) classes are in the top 10! I also see some ECON courses. This is very interesting to see! As we know a lot us believe CS is hard.
