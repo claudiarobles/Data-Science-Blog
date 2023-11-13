@@ -1,0 +1,37 @@
+---
+title: "Welcome To My Blog"
+author: "Claudia Robles"
+date: "2023-11-09"
+categories: [introduction]
+image: "claudia.jpg"
+---
+
+Hello!
+
+I am Claudia Robles, a senior at University of Illinois Urbana Champaign majoring in Information Sciences.
+
+Some of my hobies:
+
+-   I enjoy crocheting a lot! I started a two years before the pandemic in 2019. During the pandemic, I became more interested in it and started creating different items, such as key chains and hats.
+
+-   I also enjoy playing some instruments! Since 4th grade, I've played the violin. Because of my initial interest with that instrument, I decided to learn others. I've tried the cello, piano, and guitar!
+
+-   While I enjoy creating music, I also enjoy listening to music! Some of my favorite genres are classical music, pop, rap, and rnb.
+
+Interests:
+
+-   Currently, I am very interested in video games. Over the summer, I celebrated my 21st birthday and decided to get a game console! I've wanted one since it came out a few years ago, but I was just recently able to purchase it. I know spend time playing Spider-Man, Call of Duty, Sack-boy, and more!
+
+Achievements:
+
+-   During my sophomore year in high school, I was able to audition and get a spot in my city's youth symphony orchestra! I played both 1st and 2nd violin sections.
+
+-   When it was time to attend high school, I was given the opportunity to apply for different academies. We had one for STEM, Languages, Honors and Gifted, and Music! I applied for the Music Academy and Languages Academy. I was able to get into both and in the end, I chose the languages academy to become trilingual!
+
+Fun fact:
+
+-   My favorite number is 7!
+
+```{r}
+3+4
+```

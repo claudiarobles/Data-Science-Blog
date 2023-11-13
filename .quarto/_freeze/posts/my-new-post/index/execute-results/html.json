@@ -1,0 +1,14 @@
+{
+  "hash": "c8aca2952cfd7591448e0f09e5b9236a",
+  "result": {
+    "markdown": "---\ntitle: \"About me\"\nauthor: \"Claudia Robles\"\ndate: \"2023-11-13\"\ncategories: [introduction]\nimage: \"claudia.jpg\"\n---\n\n\nThis is where I add in a bunch of text.\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

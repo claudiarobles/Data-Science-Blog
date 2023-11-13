@@ -1,0 +1,37 @@
+---
+title: "Analyzing Student Performance"
+author: "Claudia Robles"
+date: "2023-11-09"
+categories: [analysis, code, performance, student]
+image: "student.jpg"
+---
+
+As a current student at Univeristy of Illinois Urbana-Champaign, I like to know which as the best and easiest classes to take (I also like to take hard ones of course, I love science and math). I was inspired to look at a data set that was created by a UIUC professor: Professor Wade Fagen-Ulmschneider.
+
+He has his own personal github:
+
+[wadefagen (Wade Fagen-Ulmschneider) (github.com)](https://github.com/wadefagen)
+
+Where he has all the data sets he has created. He generated a data set that combines all information in regards to classes, gpa, and professors on campus.
+
+Beginning of analysis:
+
+```{r}
+library(tidyverse)
+library(skimr)
+```
+
+```{r load-data, message = FALSE}
+gpa <- read_csv("https://raw.githubusercontent.com/wadefagen/datasets/master/gpa/uiuc-gpa-dataset.csv")
+```
+
+```{r}
+skim(gpa)
+```
+
+I loaded in the data set and see some information that I find interesting. The first two things I noticed are Subject and the number of students that got each letter grade.
+
+```{r}
+top_10 <- head(gpa[order(gpa$A, decreasing = TRUE), ], 10)
+print(top_10)
+```

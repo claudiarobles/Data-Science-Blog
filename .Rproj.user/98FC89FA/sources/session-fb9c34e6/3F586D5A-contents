@@ -1,0 +1,61 @@
+---
+title: "Analyzing College Football"
+author: "Claudia Robles"
+date: "2023-11-13"
+categories: [analysis, code, football, sports]
+image: "football.jpg"
+---
+
+Currently, I am attending the University of Illinois in Urbana-Champaign. Our football team did well during the Fall 22 season, hence I was inspired to look at a data set that was created by a UIUC professor: Professor Wade Fagen-Ulmschneider.
+
+He has his own personal github:
+
+[wadefagen (Wade Fagen-Ulmschneider) (github.com)](https://github.com/wadefagen)
+
+Where he has all the data sets he has created.
+
+Beginning of analysis:
+
+```{r}
+library(tidyverse)
+library(skimr)
+```
+
+```{r load-data, message = FALSE}
+football <- read_csv("https://raw.githubusercontent.com/wadefagen/datasets/master/illini-football/illini-football-scores.csv")
+```
+
+```{r}
+skim(football)
+```
+
+From the previous code, we can see that we have a total of 1284 rows. This means, this data set contains 1284 rows worth of data from games played by the Fighting Illini football team. Below, I decided to filter by the column name "Result" where it says "W," meaning when the team was able to win a game against their opponent.
+
+```{r}
+football %>%
+  filter(
+    Result == "W"
+  )
+```
+
+We see that we have a total of 617 rows, which is crazy to me! Our football team has not won a lot of games. Our first few rows are from the Fall 2022 season, so you can see we have been performing better in terms of winning or losing.
+
+Wins at Home vs. Away:
+
+```{r}
+football %>%
+  filter(Result == "W",
+         Location == "@")
+```
+
+```{r}
+football %>%
+  filter(Result == "W",
+         Location == "vs.")
+```
+
+Now I wanted to compare the wins we have at home games vs. the wins we have during away games. From the number of rows (207 for at Home games and 393 for Away games), we see that we have more wins from playing away games!
+
+```{r}
+
+```

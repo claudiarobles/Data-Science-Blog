@@ -1,0 +1,2 @@
+"0","top_10 <- head(gpa[order(gpa$A, decreasing = TRUE), ], 10)"
+"0","print(top_10)"

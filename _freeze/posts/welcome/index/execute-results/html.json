@@ -1,0 +1,14 @@
+{
+  "hash": "0a4a958c1d35a2c2ecc906cf4291b925",
+  "result": {
+    "markdown": "---\ntitle: \"Welcome To My Blog\"\nauthor: \"Claudia Robles\"\ndate: \"2023-11-09\"\ncategories: [introduction]\n---\n\n\nHello!\n\nI am Claudia Robles, a senior at University of Illinois Urbana Champaign majoring in Information Sciences.\n\nSome of my hobies:\n\n-   I enjoy crocheting a lot! I started a two years before the pandemic in 2019. During the pandemic, I became more interested in it and started creating different items, such as key chains and hats.\n\n-   I also enjoy playing some instruments! Since 4th grade, I've played the violin. Because of my initial interest with that instrument, I decided to learn others. I've tried the cello, piano, and guitar!\n\n-   While I enjoy creating music, I also enjoy listening to music! Some of my favorite genres are classical music, pop, rap, and rnb.\n\nInterests:\n\n-   Currently, I am very interested in video games. Over the summer, I celebrated my 21st birthday and decided to get a game console! I've wanted one since it came out a few years ago, but I was just recently able to purchase it. I know spend time playing Spider-Man, Call of Duty, Sack-boy, and more!\n\nAchievements:\n\n-   During my sophomore year in high school, I was able to audition and get a spot in my city's youth symphony orchestra! I played both 1st and 2nd violin sections.\n\n-   When it was time to attend high school, I was given the opportunity to apply for different academies. We had one for STEM, Languages, Honors and Gifted, and Music! I applied for the Music Academy and Languages Academy. I was able to get into both and in the end, I chose the languages academy to become trilingual!\n\nFun fact:\n\n-   My favorite number is 7!\n\n\n::: {.cell}\n\n```{.r .cell-code}\n3+4\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 7\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
